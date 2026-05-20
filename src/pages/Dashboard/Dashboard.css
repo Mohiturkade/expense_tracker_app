@@ -1,0 +1,14 @@
+.dashboard {
+  max-width: 375px;
+  min-height: 100vh;
+
+  margin: 0 auto;
+  padding: 0px 24px  128px 24px;
+
+  background-color: var(--background-color);
+}
+
+/* spacing between sections */
+.dashboard > * + * {
+  margin-top: 20px;
+}

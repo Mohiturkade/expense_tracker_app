@@ -1,0 +1,75 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ROOT VARIABLES */
+
+:root {
+  --primary-color: #111827;
+  --secondary-color: #22c55e;
+  --expense-color: #ef4444;
+  --background-color: #f3f4f6;
+  --card-color: #ffffff;
+  --text-color: #1f2937;
+  --border-radius: 24px;
+}
+
+/* BODY */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  min-height: 100vh;
+}
+
+/* ROOT */
+
+#root {
+  min-height: 100vh;
+}
+
+/* BUTTON */
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* INPUT */
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  outline: none;
+  border: none;
+}
+
+/* IMAGE */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* LINKS */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* LIST */
+
+ul,
+ol {
+  list-style: none;
+}

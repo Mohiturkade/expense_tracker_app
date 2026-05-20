@@ -1,0 +1,99 @@
+.balance-card {
+  background: #111827;
+  color: white;
+
+  padding: 24px;
+
+  border-radius: 24px;
+
+  margin-top: 24px;
+}
+
+/* Total Balance */
+
+.total-balance {
+  text-align: center;
+
+  margin-bottom: 24px;
+}
+
+.balance-label {
+  font-size: 12px;
+  font-weight: 500;
+
+  opacity: 0.7;
+
+  letter-spacing: 1px;
+}
+
+.balance-amount {
+  font-size: 36px;
+  font-weight: 700;
+
+  margin: 10px 0;
+}
+
+/* Balance Details */
+
+.balance-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 6px;
+
+  font-size: 13px;
+
+  opacity: 0.8;
+}
+
+.balance-details img {
+  width: 14px;
+  height: 14px;
+}
+
+/* =========================
+   SUMMARY CARDS
+========================= */
+
+.summary-cards {
+  display: flex;
+
+  gap: 12px;
+
+  margin-bottom: 20px;
+}
+
+/* =========================
+   SPEND ANALYTICS
+========================= */
+
+.spend-analytics {
+  background: linear-gradient(
+    135deg,
+    #1f2937,
+    #111827
+  );
+
+  padding: 18px;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.spend-analytics h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.spend-analytics p {
+  font-size: 13px;
+
+  line-height: 1.5;
+
+  opacity: 0.8;
+}

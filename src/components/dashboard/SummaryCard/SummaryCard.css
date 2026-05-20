@@ -1,0 +1,21 @@
+.summary-card {
+  flex: 1;
+  padding: 14px;
+  color: white;
+}
+
+.summary-card.income {
+  background: #16a34a;
+}
+
+.summary-card.expense {
+  background: #dc2626;
+}
+.summary-top{
+    display: flex;
+    align-items: center;
+}
+.summary-top img{
+    width: 24px;
+  height: 24px;
+}

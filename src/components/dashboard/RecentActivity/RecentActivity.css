@@ -1,0 +1,46 @@
+.recent-activity {
+  margin-top: 24px;
+
+  background: #ffffff;
+
+  padding: 20px;
+
+  border-radius: 24px;
+}
+
+/* Header */
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 16px;
+}
+
+.activity-title {
+  font-size: 18px;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+.view-all-btn {
+  border: none;
+  background: transparent;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #2563eb;
+
+  cursor: pointer;
+}
+/* List */
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+}

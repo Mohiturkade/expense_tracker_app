@@ -1,0 +1,19 @@
+.transactions {
+  max-width: 375px;
+  min-height: 100vh;
+
+  margin: 0 auto;
+
+  padding: 20px 20px 100px;
+
+  background: #f5f5f5;
+}
+
+.transaction-groups {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+}

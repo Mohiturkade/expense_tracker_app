@@ -1,0 +1,43 @@
+/* Search Container */
+.search-bar {
+  margin-top: 20px;
+
+  background: #ffffff;
+
+  padding: 14px 16px;
+
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  border: 1px solid #e5e7eb;
+}
+
+/* Search Icon */
+.search-icon {
+  width: 18px;
+  height: 18px;
+
+  opacity: 0.6;
+}
+
+/* Input */
+.search-input {
+  width: 100%;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  font-size: 14px;
+
+  color: #111827;
+}
+
+.search-input::placeholder {
+  color: #9ca3af;
+}
