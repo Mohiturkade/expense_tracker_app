@@ -1,0 +1,147 @@
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ========================= */
+/* Toggle Buttons */
+/* ========================= */
+
+.toggle-box {
+  display: flex;
+  background: #e8e8e8;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.toggle-box button {
+  flex: 1;
+  padding: 16px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.active-toggle {
+  background: white !important;
+  color: #111;
+}
+
+/* ========================= */
+/* Form Inputs */
+/* ========================= */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-form input,
+.transaction-form textarea {
+  width: 100%;
+  border: none;
+  border-radius: 18px;
+  padding: 18px;
+  font-size: 16px;
+  background: white;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.transaction-form textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+/* ========================= */
+/* Error Text */
+/* ========================= */
+
+.error-text {
+  margin-top: 6px;
+  color: crimson;
+  font-size: 13px;
+}
+
+/* ========================= */
+/* Category Grid */
+/* ========================= */
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.category-box {
+  background: white;
+  border-radius: 18px;
+  padding: 18px 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-box svg {
+  font-size: 22px;
+}
+
+.category-box span {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.category-box:hover {
+  transform: translateY(-2px);
+}
+
+.selected-category {
+  background: black;
+  color: white;
+}
+
+/* ========================= */
+/* Save Button */
+/* ========================= */
+
+.save-btn {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.save-btn:hover {
+  opacity: 0.9;
+}
+
+.save-btn:active {
+  transform: scale(0.98);
+}
+
+/* ========================= */
+/* Mobile Responsive */
+/* ========================= */
+
+@media (max-width: 480px) {
+  .category-grid {
+    gap: 10px;
+  }
+
+  .category-box {
+    padding: 14px 8px;
+  }
+
+  .category-box span {
+    font-size: 12px;
+  }
+}

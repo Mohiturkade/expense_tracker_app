@@ -2,10 +2,12 @@ import SearchIcon from "../../../assets/icons/search.png";
 
 import "./SearchBar.css";
 
-function SearchBar() {
+function SearchBar({
+  search,
+  setSearch,
+}) {
   return (
     <div className="search-bar">
-
       <img
         src={SearchIcon}
         alt="search icon"
@@ -16,8 +18,11 @@ function SearchBar() {
         type="text"
         placeholder="Search transactions"
         className="search-input"
+        value={search}
+        onChange={(e) =>
+          setSearch(e.target.value)
+        }
       />
-
     </div>
   );
 }

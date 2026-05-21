@@ -1,0 +1,10 @@
+.add-transaction {
+  max-width: 375px;
+  min-height: 100vh;
+
+  margin: 0 auto;
+
+  padding: 20px 24px 100px;
+
+  background: #f5f5f5;
+}

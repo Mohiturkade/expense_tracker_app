@@ -1,8 +1,7 @@
-import TransactionItem from "../TransactionItem/TransactionItem";
+import TransactionItem from "../../dashboard/TransactionItem/TransactionItem"
 
 import ShoppingIcon from "../../../assets/icons/shopping.png";
 import SalaryIcon from "../../../assets/icons/salary.png";
-
 import "./DateGroup.css";
 
 function DateGroup({ title }) {

@@ -1,12 +1,7 @@
-import Header from './components/common/Header/Header'
-import Dashboard from './pages/Dashboard/Dashboard';
+import AppRoutes from './routes/AppRoutes'
 
 function App() {
-    return(
-    <>
-    <Dashboard/>
-
-    </>
-    )
+  return <AppRoutes />
 }
-export default App;
+
+export default App

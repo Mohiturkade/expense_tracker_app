@@ -1,0 +1,36 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  max-width: 350px;
+  height: 75px;
+  background: white;
+  border-radius: 28px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.bottom-nav a {
+  color: #9c9c9c;
+  font-size: 22px;
+}
+
+.bottom-nav .active {
+  color: black;
+}
+
+.plus-btn {
+  width: 58px;
+  height: 58px;
+  border-radius: 18px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  margin-top: -35px;
+}

@@ -1,4 +1,4 @@
-/* RESET */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -6,70 +6,96 @@
   box-sizing: border-box;
 }
 
-/* ROOT VARIABLES */
-
 :root {
-  --primary-color: #111827;
-  --secondary-color: #22c55e;
-  --expense-color: #ef4444;
-  --background-color: #f3f4f6;
-  --card-color: #ffffff;
-  --text-color: #1f2937;
-  --border-radius: 24px;
+  --bg-color: #f5f5f3;
+  --white: #ffffff;
+  --black: #111111;
+  --gray: #8c8c8c;
+  --light-gray: #ececec;
+  --green: #3f7d58;
 }
-
-/* BODY */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
-
-  min-height: 100vh;
+  background: var(--bg-color);
+  font-family: 'Inter', sans-serif;
+  color: var(--black);
 }
 
-/* ROOT */
-
+/* Main App Container */
 #root {
+  max-width: 390px;
+  margin: auto;
+  min-height: 100vh;
+  background: var(--bg-color);
+  position: relative;
+}
+
+/* Common Page Layout */
+.page {
+  padding: 24px;
+  padding-bottom: 120px;
   min-height: 100vh;
 }
 
-/* BUTTON */
+/* Logo / Main Heading */
+.logo {
+  font-family: 'DM Serif Display', serif;
+  font-size: 34px;
+  line-height: 1.2;
+  margin-bottom: 34px;
+  color: var(--black);
+}
 
+/* Common Buttons */
 button {
-  border: none;
-  background: none;
   cursor: pointer;
-  font-family: inherit;
-}
-
-/* INPUT */
-
-input,
-textarea,
-select {
-  font-family: inherit;
-  outline: none;
+  font-family: 'Inter', sans-serif;
   border: none;
+  outline: none;
 }
 
-/* IMAGE */
-
-img {
-  max-width: 100%;
-  display: block;
+/* Common Inputs */
+input,
+textarea {
+  font-family: 'Inter', sans-serif;
+  outline: none;
 }
 
-/* LINKS */
-
-a {
-  text-decoration: none;
-  color: inherit;
+/* Common Card Style */
+.card {
+  background: var(--white);
+  border-radius: 24px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
 }
 
-/* LIST */
+/* Empty State */
+.empty-box {
+  background: var(--white);
+  padding: 28px;
+  border-radius: 24px;
+  text-align: center;
+  color: var(--gray);
+  font-size: 15px;
+}
 
-ul,
-ol {
-  list-style: none;
+/* Scrollbar Hide */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Smooth UI */
+* {
+  transition: all 0.2s ease;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .page {
+    padding: 20px;
+    padding-bottom: 120px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
 }

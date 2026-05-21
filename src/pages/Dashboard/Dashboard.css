@@ -1,14 +1,80 @@
-.dashboard {
-  max-width: 375px;
-  min-height: 100vh;
-
-  margin: 0 auto;
-  padding: 0px 24px  128px 24px;
-
-  background-color: var(--background-color);
-}
-
-/* spacing between sections */
-.dashboard > * + * {
+.balance-box {
+  text-align: center;
   margin-top: 20px;
+  margin-bottom: 35px;
 }
+
+.balance-box p {
+  color: #8c8c8c;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.balance-box h2 {
+  font-size: 58px;
+  margin-top: 12px;
+  color: #111;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 26px;
+}
+
+.summary-card {
+  background: white;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.summary-card span {
+  color: #888;
+  font-size: 13px;
+}
+
+.summary-card h3 {
+  margin-top: 14px;
+  font-size: 32px;
+}
+
+.analytics-banner {
+  background: linear-gradient(
+    to right,
+    #111111,
+    #222222
+  );
+
+  color: white;
+  padding: 26px;
+  border-radius: 28px;
+  margin-bottom: 28px;
+}
+
+.analytics-banner h3 {
+  font-size: 24px;
+}
+
+.analytics-banner p {
+  margin-top: 10px;
+  color: #d3d3d3;
+  line-height: 1.5;
+}
+
+.recent-header {
+  margin-bottom: 16px;
+}
+
+.recent-header h3 {
+  font-size: 22px;
+}
+
+.recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
+

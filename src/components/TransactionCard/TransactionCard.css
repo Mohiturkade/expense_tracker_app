@@ -1,0 +1,34 @@
+.transaction-card {
+  background: white;
+  padding: 18px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-card h3 {
+  font-size: 18px;
+}
+
+.transaction-card p {
+  color: #999;
+  margin-top: 6px;
+}
+
+.income {
+  color: #3b7d52;
+}
+
+.expense {
+    color: #111;
+}
+
+.delete-btn {
+  margin-top: 8px;
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
